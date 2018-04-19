@@ -3,7 +3,10 @@ from setuptools import setup
 
 setup(
     name='pytest-cldf',
-    version='0.1.0',
+    version='0.1.1',
+    description="Easy quality control for CLDF datasets using pytest",
+    long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
     packages=['pytest_cldf'],
     install_requires=[
         'pytest>=3.1', 

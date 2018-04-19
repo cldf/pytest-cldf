@@ -1,5 +1,8 @@
 # pytest-cldf
 
+[![PyPI](https://img.shields.io/pypi/v/pytest-cldf.svg)](https://pypi.org/project/pytest-cldf)
+
+
 This pytest plugin can be used to run validation of CLDF datsets via the pytest
 test runner. In particular, this allows hooking up continuous validation with
 CI services like travis-ci easily.
