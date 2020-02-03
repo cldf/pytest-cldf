@@ -7,6 +7,7 @@ setup(
     description="Easy quality control for CLDF datasets using pytest",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
+    url="https://github.com/cldf/pytest-cldf/",
     packages=['pytest_cldf'],
     install_requires=[
         'attrs>=18.2',  # upgrade to the new baseline within our packages.
